@@ -1,0 +1,29 @@
+{
+    "name": "eighteenplus/agegatelaravel",
+    "description": "18+ Age Gate for Adult Websites",
+    "keywords": ["eighteenplus", "agegate"],
+    "homepage": "https://18plus.org",
+    "authors": [
+        {
+            "name": "***",
+            "email": "you@you.com"
+        }
+    ],
+    "version": "1.0.1",
+    "require": {
+        "eighteenplus/agegate": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "EighteenPlus\\Agegatelaravel\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EighteenPlus\\Agegatelaravel\\AgeServiceProvider"
+            ]
+        }
+    }
+}
